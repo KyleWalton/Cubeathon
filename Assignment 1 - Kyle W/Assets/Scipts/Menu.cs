@@ -13,7 +13,7 @@ public class Menu : MonoBehaviour
         //Exit the game when not launched from inside the Unity Editor.
         Application.Quit();
         //For use inside Unity Engine
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
     }
 
     public void Level1Select()
